@@ -11,8 +11,8 @@ logging.getLogger().setLevel(logging.CRITICAL)
 load_dotenv()
 
 api = Scraper()
-token = os.getenv("7083062463:AAFMx6JA1YH0rw8rXAeJCksGONw2GSz5h8E")
-BOT_USERNAME = '@RNR3Bot'
+token = os.getenv("TOKEN")
+BOT_USERNAME = '@ManukaAI_Bot'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Support me on : https://www.paypal.me/ardha27')
